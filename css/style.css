@@ -761,13 +761,6 @@ h6 {
 }
 
 .map {
-  height: 0rem;
-  -webkit-transition: all 1s ease 0s;
-  -o-transition: all 1s ease 0s;
-  transition: all 1s ease 0s;
-}
-
-.map._watcher-view {
   height: 18.75rem;
 }
 

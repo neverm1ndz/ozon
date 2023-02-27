@@ -548,8 +548,8 @@ h6 {
   background: url("../img/main/main.jpeg") center/cover no-repeat; }
 
 .main__container {
-  height: 37.5rem;
   position: relative;
+  padding-bottom: 3.125rem;
 }
 
 .main__container::after {

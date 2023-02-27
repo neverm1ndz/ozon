@@ -545,10 +545,9 @@ h6 {
 }
 
 .no-webp .main{
-  background: url("../img/main/main.jpeg") cover no-repeat; }
+  background: url("../img/main/main.jpeg") 0 0/cover no-repeat; }
 
 .main {
-  background-position: 0 0;
   position: relative;
   padding-bottom: 3.125rem;
 }
@@ -1979,4 +1978,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-.webp .main{ background: url(../img/main/main.webp) cover no-repeat; }
+.webp .main{ background: url(../img/main/main.webp) 0 0/cover no-repeat; }

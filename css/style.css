@@ -544,15 +544,15 @@ h6 {
   gap: 0.9375rem;
 }
 
-.no-webp .main__container{
-  background: url("../img/main/main.jpeg") center/cover no-repeat; }
+.no-webp .main{
+  background: url("../img/main/main.jpeg") 0 0/cover no-repeat; }
 
-.main__container {
+.main {
   position: relative;
   padding-bottom: 3.125rem;
 }
 
-.main__container::after {
+.main::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -563,9 +563,13 @@ h6 {
   z-index: 2;
 }
 
+.main__container {
+  position: relative;
+  padding-bottom: 3.125rem;
+}
+
 .main__content {
-  padding-top: 10rem;
-  padding-left: 6.25rem;
+  padding-top: 18.75rem;
   max-width: 38.75rem;
   position: relative;
   z-index: 3;
@@ -1961,4 +1965,4 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-.webp .main__container{ background: url(../img/main/main.webp) center/cover no-repeat; }
+.webp .main{ background: url(../img/main/main.webp) 0 0/cover no-repeat; }

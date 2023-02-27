@@ -564,12 +564,12 @@ h6 {
 }
 
 .main__container {
-  position: relative;
   padding-bottom: 3.125rem;
 }
 
 .main__content {
   padding-top: 18.75rem;
+  padding-left: 3.125rem;
   max-width: 38.75rem;
   position: relative;
   z-index: 3;
@@ -688,6 +688,13 @@ h6 {
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
   padding-bottom: 50%;
+  overflow: hidden;
+}
+
+.aboutus__image-ibg img {
+  -webkit-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 
 .advantages {
@@ -1520,6 +1527,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
+@media (max-width: 75em) {
+  .main {
+    background-position: center;
+  }
+}
+
 @media (max-width: 20em) {
   .main__text {
     font-size: 1.25rem;
@@ -1787,17 +1800,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .main__container {
     padding-top: 7.5rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 1.875rem;
   }
 
   .main__content {
     padding-left: 0rem;
     padding-top: 3.125rem;
-    max-width: none;
   }
 
   .advantages__container {
@@ -1962,6 +1969,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .contacts-footer__telephone:hover {
     text-decoration: underline;
+  }
+
+  .aboutus__image-ibg img:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 

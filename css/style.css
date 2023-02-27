@@ -545,11 +545,9 @@ h6 {
 }
 
 .no-webp .main{
-  background: url("../img/main/main.jpeg") no-repeat; }
+  background: url("../img/main/main.jpeg") 0 0/cover no-repeat; }
 
 .main {
-  background-position: 0 0;
-  background-size: cover;
   position: relative;
   padding-bottom: 3.125rem;
 }
@@ -1530,9 +1528,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @media (max-width: 75em) {
-  .main {
-    background-position: center;
-  }
+  .no-webp .main{
+    background: url("../img/main/main.jpeg") center/cover no-repeat; }
 }
 
 @media (max-width: 20em) {
@@ -1980,4 +1977,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-.webp .main{ background: url(../img/main/main.webp) no-repeat; }
+.webp .main{ background: url(../img/main/main.webp) 0 0/cover no-repeat; }
+
+@media (max-width: 75em){
+
+  .webp .main{ background: url(../img/main/main.webp) center/cover no-repeat; }
+}

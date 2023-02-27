@@ -1514,7 +1514,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .aboutus__container {
-    padding-bottom: 3.125rem;
+    padding-bottom: 1.875rem;
   }
 
   .aboutus__paragraph:not(:last-child) {
@@ -1848,15 +1848,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (padding-bottom: clamp( 3.125rem , 1.9886363636rem  +  5.6818181818vw , 6.25rem )) {
+@supports (padding-bottom: clamp( 1.875rem , 0.2840909091rem  +  7.9545454545vw , 6.25rem )) {
     .aboutus__container {
-      padding-bottom: clamp( 3.125rem , 1.9886363636rem  +  5.6818181818vw , 6.25rem );
+      padding-bottom: clamp( 1.875rem , 0.2840909091rem  +  7.9545454545vw , 6.25rem );
     }
 }
 
-@supports not (padding-bottom: clamp( 3.125rem , 1.9886363636rem  +  5.6818181818vw , 6.25rem )) {
+@supports not (padding-bottom: clamp( 1.875rem , 0.2840909091rem  +  7.9545454545vw , 6.25rem )) {
     .aboutus__container {
-      padding-bottom: calc(3.125rem + 3.125 * (100vw - 20rem) / 55);
+      padding-bottom: calc(1.875rem + 4.375 * (100vw - 20rem) / 55);
     }
 }
 

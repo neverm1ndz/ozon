@@ -687,7 +687,6 @@ h6 {
 }
 
 .advantages {
-  padding-top: 3.125rem;
   background-color: #F5F5F5;
 }
 
@@ -1500,6 +1499,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .advantages {
+    padding-top: 3.125rem;
+  }
+
+  .advantages {
     padding-bottom: 6.25rem;
   }
 }
@@ -1519,6 +1522,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .aboutus__paragraph:not(:last-child) {
     margin-bottom: 1.25rem;
+  }
+
+  .advantages {
+    padding-top: 1.25rem;
   }
 
   .advantages {
@@ -1869,6 +1876,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @supports not (margin-bottom: clamp( 1.25rem , 1.0227272727rem  +  1.1363636364vw , 1.875rem )) {
     .aboutus__paragraph:not(:last-child) {
       margin-bottom: calc(1.25rem + 0.625 * (100vw - 20rem) / 55);
+    }
+}
+
+@supports (padding-top: clamp( 1.25rem , 0.5681818182rem  +  3.4090909091vw , 3.125rem )) {
+    .advantages {
+      padding-top: clamp( 1.25rem , 0.5681818182rem  +  3.4090909091vw , 3.125rem );
+    }
+}
+
+@supports not (padding-top: clamp( 1.25rem , 0.5681818182rem  +  3.4090909091vw , 3.125rem )) {
+    .advantages {
+      padding-top: calc(1.25rem + 1.875 * (100vw - 20rem) / 55);
     }
 }
 

@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230228163945">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230301162930">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,16 +21,16 @@
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a data-goto-header data-goto=".aboutus" href="#" class="menu__link">Про нас</a>
+								<a data-goto-header data-goto=".aboutus" href="" class="menu__link">Про нас</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Наші роботи</a>
+								<a data-goto-header data-goto=".product" href="" class="menu__link">Продукція</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Продукція</a>
+								<a data-goto-header data-goto=".gallery" href="" class="menu__link">Наші роботи</a>
 							</li>
 							<li class="menu__item">
-								<a href="" class="menu__link">Контакти</a>
+								<a data-goto-header data-goto=".contacts" href="" class="menu__link">Контакти</a>
 							</li>
 						</ul>
 					</nav>
@@ -52,7 +52,7 @@
 			<section class="page__main main">
 				<div class="main__container">
 					<div class="main__content">
-						<div class="main__title">Компанія <span>OZON</span></div>
+						<h1 class="main__title">Компанія <span>OZON</span></h1>
 						<div class="main__text">
 							<p>Регіональне представництво бруківки в м. Хуст</p>
 							<p>Гарантуємо вам якість продукції, комплексне обслуговування і повну консультаційну підтримку
@@ -68,7 +68,7 @@
 			<section class="page__aboutus aboutus">
 				<div class="aboutus__container">
 					<div class="aboutus__content">
-						<div data-watch data-watch-once class="aboutus__title title">Про нас</div>
+						<h2 data-watch data-watch-once class="aboutus__title title">Про нас</h2>
 						<div data-watch data-watch-once data-watch-threshold="0.4" class="aboutus__text">
 							<p class="aboutus__paragraph">Офіційний представник виробника бруківки
 								<span>ОZON</span> у місті
@@ -124,10 +124,145 @@
 					</div>
 				</div>
 			</div>
+			<section class="page__product product">
+				<div class="product__container">
+					<h2 data-watch data-watch-once class="product__title title">Наша продукція</h2>
+					<div class="product__item item-product">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Романо</h3>
+							<div class="item-product__text">
+								Новинка! Бруківка Романо - це поєднання античної елегантності та сучасної якості, що в
+								результаті
+								створює ідеальну плитку для стильних та вишуканих рішень. Її свіжий та незвичайний дизайн
+								миттєво
+								привертає увагу. Бруківка Романо гармонійно поєднується з класичними варіантами бруківки, тому є
+								чудовим вибором для тих, хто цінує традиційний стиль, але хоче додати своїм проектам свіжості та
+								новизни.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/romano.webp" type="image/webp"><img src="img/product/romano.jpeg" alt="Romano"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product item-product_reverse">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Променада А</h3>
+							<div class="item-product__text">
+								Променада А ідеальна для облаштування великих площ, завдяки своїм великим елементам, які можна
+								легко поєднувати різними способами за рахунок особливостей їх форми та розмірів. Ця бруківка
+								відкриває безліч можливостей для створення стильних та динамічних рисунків поверхні.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/promenada-a.webp" type="image/webp"><img src="img/product/promenada-a.jpeg" alt="Promenada A"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Променада В</h3>
+							<div class="item-product__text">
+								Променада В, завдяки своїм меншим розмірам, ідеально підходить для замощення невеликих ділянок,
+								таких як двори приватних будинків чи тераси, а також для створення садових доріжок і алей.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/promenada-b.webp" type="image/webp"><img src="img/product/promenada-b.jpeg" alt="Promenada B"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product item-product_reverse">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Променада C</h3>
+							<div class="item-product__text">
+								Променада С є найбільш універсальним комплектом серед цієї бруківки, оскільки включає в себе
+								елементи середнього розміру та класичної форми, що підійдуть для замощення будь-яких площ.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/promenada-c.webp" type="image/webp"><img src="img/product/promenada-c.jpeg" alt="Promenada C"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Дуо</h3>
+							<div class="item-product__text">
+								Бруківка Дуо відмінно підходить для створення мінімалістичного дизайну, який додасть
+								елегантності будь-якому простору. Геометричні схеми укладання з повторюваними елементами
+								додадуть інтересу та оригінальності. Щоб забезпечити більш виразний вигляд, можна
+								експериментувати з кольорами та відтінками. Однотонна поверхня світлих відтінків, зокрема,
+								виглядає дуже стильно та сучасно.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/duo.webp" type="image/webp"><img src="img/product/duo.jpeg" alt="Duo"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product item-product_reverse">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Новатор 8</h3>
+							<div class="item-product__text">
+								Бруківка Новатор - це чудовий варіант для замощення міських площ, проспектів та територій
+								відпочинкових комплексів. Вона має лаконічні геометричні візерунки, які створюють враження
+								безкінечного простору. Більш того, обравши колор-мікс бруківки, можна досягнути імітації
+								покриття з граніту чи мармуру.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/novator-8.webp" type="image/webp"><img src="img/product/novator-8.jpeg" alt="Novator 8"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Новатор 6</h3>
+							<div class="item-product__text">
+								Новатор 6 - це варіація на традиційну Бруківку Новатор 8 з меншою довжиною елементів, товщиною
+								та фаскою. Ці зміни зберігають всі характерні риси та зовнішній вигляд Бруківки Новатор 8, але з
+								компактнішими розмірами, що надає їй певні переваги. Таким чином, Бруківка Новатор 6 є
+								практичним вибором для замощення невеликих площ, оскільки вона
+								зберігає стиль та дизайн свого більшого аналога, але з меншими розмірами.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/novator-6.webp" type="image/webp"><img src="img/product/novator-6.jpeg" alt="Novator 6"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product item-product_reverse">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Гармонія</h3>
+							<div class="item-product__text">
+								Замощення поверхонь бруківкою Гармонія неперевершене своєю точністю та геометричною симетрією,
+								завдяки чому воно ніколи не виглядає монотонним. Ця бруківка надає сучасного вигляду міським
+								площам та тротуарам, просторим дворам, під’їзним шляхам та терасам кафе.
+								Крім того, замощення кількома кольорами та повторюваними елементами в схемі укладання буде
+								виглядати особливо вдалим на поверхнях, замощених бруківкою Гармонія.
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/garmoniya.webp" type="image/webp"><img src="img/product/garmoniya.jpeg" alt="Garmoniya"></picture>
+						</div>
+					</div>
+					<div class="product__item item-product">
+						<div data-watch data-watch-once class="item-product__body">
+							<h3 class="item-product__title">Лого</h3>
+							<div class="item-product__text">
+								Бруківка Лого є відмінним вибором для тих, хто бажає створити оригінальне та неповторне
+								замощення, не обмежуючись звичайними геометричними формами. Її нестандартна форма ідеально
+								підходить для дворів складної конфігурації з кривими та затишними закутками.
+								Бруківка Лого дозволяє втілити задуми ландшафтного дизайну, додавши до нього елементи сучасності
+								та індивідуальності. Крім того, вона дуже міцна та зносостійка, що робить її ідеальним варіантом
+								для тротуарів та під’їзних шляхів, які піддаються великому навантаженню.
+
+							</div>
+						</div>
+						<div data-watch data-watch-once class="item-product__image">
+							<picture><source srcset="img/product/logo.webp" type="image/webp"><img src="img/product/logo.jpeg" alt="Logo"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="page__gallery gallery">
 				<div class="gallery__container">
-					<div data-watch data-watch-once class="gallery__title title">Галерея наших
-						робіт</div>
+					<h2 data-watch data-watch-once class="gallery__title title">Галерея наших
+						робіт</h2>
 					<div data-gallery class="gallery__items">
 						<a data-watch data-watch-once data-watch-threshold="0.3" href="img/gallery/01.jpg" class="gallery__image">
 							<picture><source srcset="img/gallery/01.webp" type="image/webp"><img alt="01" src="img/gallery/01.jpg" loading="lazy" class="gallery__preview"></picture>
@@ -161,11 +296,10 @@
 						</a>
 					</div>
 				</div>
-
 			</section>
 			<section class="page__contacts contacts">
 				<div class="contacts__container">
-					<div data-watch data-watch-once class="contacts__title title">Наші контакти</div>
+					<h2 data-watch data-watch-once class="contacts__title title">Наші контакти</h2>
 					<div class="contacts__content">
 						<div class="contacts__body body-contacts">
 							<div data-watch data-watch-once class="body-contacts__item">
@@ -195,9 +329,9 @@
 							<div data-watch data-watch-once class="questions-contacts__title">Залишіть свій номер телефону і
 								наші менеджери зв'яжуться
 								з вами</div>
-							<form data-watch data-watch-once action="#" method="" class="questions-contacts__form form">
-								<input type="text" name="name" placeholder="Ім'я" class="form__input">
-								<input type="tel" name="tel" placeholder="Номер телефону" class="form__input">
+							<form data-watch data-watch-once action="telegramsender/ajax.php" method="POST" class="questions-contacts__form form">
+								<input type="text" name="name" placeholder="Ім'я" data-required="" class="form__input">
+								<input type="tel" name="tel" placeholder="Номер телефону" data-required class="form__input">
 								<button type="submit" class="form__button">Відправити</button>
 							</form>
 						</div>
@@ -236,7 +370,8 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230228163945"></script>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js?_v=20230301162930"></script>
+	<script src="js/app.min.js?_v=20230301162930"></script>
 </body>
 
 </html>

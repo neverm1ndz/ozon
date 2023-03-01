@@ -517,6 +517,9 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.3125rem;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .contacts-footer__tel:not(:last-child) {
@@ -2781,7 +2784,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     color: #0e65bb;
   }
 
-  .contacts-footer__telephone:hover {
+  .contacts-footer__tel:hover {
     color: #0e65bb;
   }
 

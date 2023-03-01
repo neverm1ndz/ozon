@@ -1,10 +1,10 @@
 <?php
 // Токен телеграм бота
-$tg_bot_token = "5687635228:AAH4lF8XLaGxA13RtnwMW2uSKmEb5iOyOzM";
+$tg_bot_token = "6231829975:AAGsiQ8VhMblmE-gam5HuTipaQLG0PUPK1o";
 // ID Чата
-$chat_id = "-789536697";
+$chat_id = "-754921176";
 
-$text = 'Заявка OZON' . "\n";
+$text = 'Заявка на дзвінок' . "\n";
 
 foreach ($_POST as $key => $val) {
     $text .= "\n" . $key . ": " . $val . "\n";

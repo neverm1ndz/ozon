@@ -1092,7 +1092,6 @@ h6 {
   transition: box-shadow 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
   font-size: 1.125rem;
   width: 100%;
-  -webkit-appearance: none;
 }
 
 .form__input:focus {

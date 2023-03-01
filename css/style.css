@@ -529,7 +529,25 @@ h6 {
 
 .contacts-footer__telephone {
   font-size: 1.125rem;
-  line-height: 120%;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.3125rem;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.contacts-footer__telephone::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0.125rem;
+  bottom: 0;
+  left: 50%;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #0e65bb;
 }
 
 .contacts-footer__socials {
@@ -541,6 +559,18 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.9375rem;
+}
+
+.contacts-footer__facebook {
+  -webkit-transition: color 0.3s ease 0s;
+  -o-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
+}
+
+.contacts-footer__instagram {
+  -webkit-transition: color 0.3s ease 0s;
+  -o-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
 }
 
 .no-webp .main{
@@ -2752,7 +2782,24 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .contacts-footer__telephone:hover {
+    color: #0e65bb;
+  }
+
+  .contacts-footer__telephone:hover::after {
+    left: 0;
+    width: 100%;
+  }
+
+  .contacts-footer__telephone:hover {
     text-decoration: underline;
+  }
+
+  .contacts-footer__facebook:hover {
+    color: #0e65bb;
+  }
+
+  .contacts-footer__instagram:hover {
+    color: #0e65bb;
   }
 
   .aboutus__image-ibg img:hover {

@@ -2447,6 +2447,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .aboutus__image-ibg {
     padding-bottom: 70%;
   }
+
+  .item-product__image {
+    padding-bottom: 75%;
+  }
 }
 
 @media (min-width: 20em) and (max-width: 75em) {
